@@ -1,7 +1,11 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# Hi !
+I am an AI+HCI+Health researcher at Tsinghua University🎓. I am now a member of Pervasive HCI Group, advised by Prof. Yuanchun Shi, A/Prof. Yuntao Wang, and Prof. Yingqing Xu. I have done research in the Department of Computer Science and Technology, Global Innovation Exchange, Future Lab, and School of Vehicle and Mobility. I was a researcher at Tsinghua-Toyota AI Center and an intern at ANT Group. I enjoy working with academia and industry.
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+🔭 My research interests include Remote Physiological Sensing, Pervasive Computing, Human-Computer Interaction(HCI), Large Language Models, and Computer Vision. I’m currently working on Biosensing, HCI, and LLM.
+
+📫 Reach me through tjk24@mails.tsinghua.edu.cn if interested.
+
+![Academic Pages template example](images/homepage.png "Academic Pages template example") (picture 可以放一个自己的website的封面图片 来介绍一下自己的风格 soft的柔软的设计师)
 
 # Getting Started
 
@@ -15,57 +19,24 @@
 
 See more info at https://academicpages.github.io/
 
-## Running locally
+## 🔥 News
+2025.5: Our FacePhys Project got reported by official media, including: Tsinghua University (清华大学), MGTV（芒果TV/湖南新闻联播), VOC（湖南日报）
 
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+2025.2: Awarded the Excellent Beijing Natural Science Foundation Program by Beijing Natural Science Foundation as Principle Investigator.
 
-1. Clone the repository and made updates as detailed above.
+2025.1: Our paper Spiking-PhysFormer: Camera-BasedRemote Photoplethysmography withParallel Spike-driven Transformer has been accepted by Neural Networks(Q1, IF:6.0).
 
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
+2024.11: Awarded the Excellent Graduation Thesis by Beijing Municipal Education Commission.
 
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+## Research Experience
+2025.5: Our FacePhys Project got reported by official media, including: Tsinghua University (清华大学), MGTV（芒果TV/湖南新闻联播), VOC（湖南日报）
 
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
+2025.2: Awarded the Excellent Beijing Natural Science Foundation Program by Beijing Natural Science Foundation as Principle Investigator.
 
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
+2025.1: Our paper Spiking-PhysFormer: Camera-BasedRemote Photoplethysmography withParallel Spike-driven Transformer has been accepted by Neural Networks(Q1, IF:6.0).
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+2024.11: Awarded the Excellent Graduation Thesis by Beijing Municipal Education Commission.
 
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-chmod -R 777 .
-docker compose up
-```
-
-You should now be able to access the website from `localhost:4000`.
 
 ### Using the DevContainer in VS Code
 
